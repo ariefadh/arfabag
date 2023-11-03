@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARFA BAG</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="shortcut icon" href="img/arfa_icon.png" type="image/x-icon">
+    <style>
+    /* Background lapisan hijau dan gambar latar belakang jumbotron */
+    .jumbotron:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(
+        0,
+        128,
+        0,
+        0.5
+      ); /* Warna hijau dengan tingkat transparansi yang sesuai */
+      border-radius: 10px; /* Sesuaikan dengan border-radius jumbotron */
+      z-index: -1;
+    }
+    
+    /* Background gambar latar belakang jumbotron */
+    .jumbotron {
+      background-image: url("img/tas_back.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Menjadikan gambar latar belakang nempel pada navbar */
+      background-position: center top;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 0; /* Menghilangkan margin atas agar gambar latar belakang dan navbar nempel */
+      position: relative;
+    }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="img/arfa_logo.png" width="100px" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role"button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login/Register
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="login.html">Login</a>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="container-fluid p-5 jumbotron">
+    <div class="row justify-content-evenly">
+        <div class="col-md-6">
+            <div class="pt-md-5 mt-md-5">
+                <div class="jumbotron-text-box" style="background-color: rgba(0, 255, 127, 0.3); padding: 20px; border-radius: 10px;">
+                    <p class="jumbotron-text">Hello,</p>
+                    <h1 class="jumbotron-text">I'M Arie Fadhudin</h1><br>
+                    <p class="jumbotron-text-size">as Software Engineering</p>
+                    <p class="jumbotron-text-size">Welcome to our website</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-md-6 text-md-right">
+            <img src="img/arfa_product.png" alt="Product" width="450px" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+
+<!-- Isi Tentang Kami -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Tentang Kami</h4>
+            <p class="text-justify">Selamat datang di ARFA BAG - Tempat yang sempurna untuk mengejar gaya hidup Anda dengan tas berkualitas tinggi. Kami adalah toko tas yang berkomitmen untuk memberikan produk berkualitas terbaik dengan desain kreatif yang memenuhi kebutuhan Anda.</p>
+            <p class="text-justify">Dengan pengalaman bertahun-tahun dalam industri tas, kami bangga menjadi mitra fashion Anda. Kami menghadirkan koleksi tas yang eksklusif, elegan, dan sesuai dengan perkembangan model terbaru. Setiap tas di ARFA BAG diciptakan dengan perhatian terhadap detail, ketahanan, dan gaya, menjadikannya teman setia Anda dalam berbagai kesempatan.</p>
+            <p class="text-justify">Kami memahami bahwa tas bukan sekadar aksesori, tetapi juga bagian penting dari gaya hidup Anda. Oleh karena itu, kami selalu berupaya untuk memberikan layanan terbaik dan kualitas tak tertandingi dalam setiap produk yang kami tawarkan.</p>
+            <p class="text-justify">Terima kasih telah mempercayai ARFA BAG. Bersama-sama, kita akan terus menjelajahi dunia fashion dengan tas yang luar biasa.</p>
+        </div>
+    </div>
+</div>
+<!-- Akhir isi Tentang Kami -->
+
+<!-- Footer -->
+<footer class="footer mt-5 p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Teks footer di sebelah kiri -->
+                <div class="footer-text">
+                    &copy; 2023 Arie Fadhudin | Dasar Pemrograman Web
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript dan Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

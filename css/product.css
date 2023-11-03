@@ -1,0 +1,84 @@
+.display-5 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.display-md-1 {
+  font-size: 3rem;
+}
+
+.fs-4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fs-2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  margin: 10px 0;
+}
+
+/* Mengubah warna dan font dari teks di dalam jumbotron */
+.jumbotron-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+.footer {
+  background-color: hsl(161, 90%, 43%); /* Warna latar belakang footer */
+  color: #fff; /* Warna teks footer */
+  padding: 10px 0; /* Padding atas dan bawah pada footer */
+}
+
+/* Teks footer di sebelah kiri */
+.footer-text {
+  text-align: left;
+  padding-left: 15px; /* Memberikan jarak kiri pada teks footer */
+}
+
+/* CSS for header "Produk Kami" */
+.header-text {
+  font-size: 2rem; /* Adjust font size as needed */
+  font-weight: bold; /* Make the text bold */
+  margin-bottom: 30px; /* Add space below the header to separate it from the product content */
+}
+
+/* Common styling for product boxes */
+.product-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff; /* Add a background color to the product boxes */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a raised effect */
+  height: 100%; /* Make all product boxes the same height */
+}
+
+.product-box h5 {
+  font-size: 1.5rem; /* Reduce the heading font size */
+}
+
+.product-box p {
+  font-size: 1rem; /* Reduce the paragraph font size */
+  margin-top: 10px; /* Add space between the heading and the description */
+}
+
+/* Adjust styles for different screen sizes */
+@media (max-width: 768px) {
+  .product-box {
+      margin: 10px 0;
+  }
+}
+
+.custom-jumbotron {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 5px; /* Add some padding to the jumbotron */
+  border: 2px solid hsl(161, 90%, 43%);; /* Add a border with a custom color */
+  border-radius: 10px; /* Add rounded corners */
+}
+
